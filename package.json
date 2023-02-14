@@ -1,0 +1,21 @@
+{
+  "name": "aicommits",
+  "version": "1.0.4",
+  "description": "Writes your git commit messages for you with AI",
+  "keywords": [
+    "ai",
+    "git",
+    "commit"
+  ],
+  "license": "MIT",
+  "repository": "Nutlope/aicommits",
+  "author": "Hassan El Mghari (@nutlope)",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "bin": "dist/cli.mjs",
+  "dependencies": {
+    "openai": "^3.1.0"
+  }
+}
